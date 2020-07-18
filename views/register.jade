@@ -1,0 +1,19 @@
+extends registerLayout
+
+block content
+    .wrap 
+        h1 #{title}
+        input(type="text" placeholder="username" class="username")
+        span 
+        input(type="password" placeholder="password" class="password")
+        span 
+        input(type="text" placeholder="email" class="email")
+        span 
+        p
+            input(type="text" placeholder="checkedVal" class="input")
+            button(class="check") 发送验证码
+        span 
+        p
+            button(class="btn") 注册
+    script(src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js")
+    script(src="javascripts/registerJs.js")

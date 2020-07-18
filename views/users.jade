@@ -1,0 +1,15 @@
+extends layout
+
+block header
+    h1 #{age}
+    h2 #{title}
+block content
+    .box(style="height:200px;width:200px;background:red;") hello 
+    ul
+        each val in arr
+            li= val
+block scripts
+    script.
+        alert(1);
+        document.querySelector('.box').onclick = function(){console.log(123)};
+        
