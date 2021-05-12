@@ -14,7 +14,7 @@
         "jade": "~1.11.0",
         "morgan": "~1.9.1",
         "mysql": "^2.18.1",
-        "nodemailer": "^6.4.10",
+        "nodemailer": "^6.4.16",
         "querystring": "^0.2.0"
     },
     "devDependencies": {}
